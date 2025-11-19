@@ -19,7 +19,7 @@ optionsBuilder)
 if(!optionsBuilder.IsConfigured)
 {
 // Essa string de conexão depende da SUA máquina.
-optionsBuilder.UseSqlServer("Server=localhost\\SQLEXPRESS;"
+optionsBuilder.UseSqlServer("Server=localhost\\SQLELIAS;"
 + "Database=ExoApi;Trusted_Connection=True;");
 // Exemplo 1 de string de conexão:
 // User
